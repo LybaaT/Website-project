@@ -1,18 +1,15 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: "h1font";
   src: url(fonts/font1.ttf);
 }
-
 @font-face {
   font-family: "buttons";
   src: url(fonts/nav.ttf);
 }
-
 html, body {
   background-color: #FEDCC8;
 }
@@ -23,15 +20,9 @@ header {
   left: 0;
   width: 100%;
   padding: 30px 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
@@ -43,28 +34,21 @@ h1 {
 }
 
 h2 {
-  font-size: 7.5em;
+  font-size: 20px;
   font-family: "buttons";
   text-align: center;
   font-weight: 300;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: absolute;
   white-space: nowrap;
   z-index: 9;
+  pointer-events: none;
 }
 
 header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
@@ -80,8 +64,7 @@ header ul li a {
   color: #2D112B;
   border-radius: 92px;
   background: #fedcc8;
-  -webkit-box-shadow: 20px 20px 54px #d5b9a8, -20px -20px 54px #ffffe8;
-          box-shadow: 20px 20px 54px #d5b9a8, -20px -20px 54px #ffffe8;
+  box-shadow: 20px 20px 54px #d5b9a8, -20px -20px 54px #ffffe8;
   cursor: pointer;
 }
 
@@ -92,8 +75,7 @@ header ul li:hover {
 }
 
 .parallax {
-  -webkit-perspective: 100px;
-          perspective: 100px;
+  perspective: 100px;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -103,6 +85,7 @@ header ul li:hover {
   right: 0;
   bottom: 0;
   margin-left: -1500px;
+  pointer-events: none;
 }
 
 .parallax__layer {
@@ -112,7 +95,6 @@ header ul li:hover {
   bottom: 0;
   left: 0;
 }
-
 .parallax__layer img {
   display: block;
   position: absolute;
@@ -120,8 +102,7 @@ header ul li:hover {
 }
 
 .parallax__cover {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #10102c), to(#2D112B));
-  background: linear-gradient(to top, #10102c 40%, #2D112B 100%);
+  background: linear-gradient(to top, rgb(16, 16, 44) 40%, #2D112B 100%);
   display: block;
   position: absolute;
   top: 100%;
@@ -132,37 +113,29 @@ header ul li:hover {
 }
 
 .parallax__layer__0 {
-  -webkit-transform: translateZ(-300px) scale(4);
-          transform: translateZ(-300px) scale(4);
+  transform: translateZ(-300 px) scale(4);
 }
 
 .parallax__layer__1 {
-  -webkit-transform: translateZ(-250px) scale(3.5);
-          transform: translateZ(-250px) scale(3.5);
+  transform: translateZ(-250 px) scale(3.5);
 }
 
 .parallax__layer__2 {
-  -webkit-transform: translateZ(-200px) scale(3);
-          transform: translateZ(-200px) scale(3);
+  transform: translateZ(-200 px) scale(3);
 }
 
 .parallax__layer__3 {
-  -webkit-transform: translateZ(-150px) scale(2.5);
-          transform: translateZ(-150px) scale(2.5);
+  transform: translateZ(-150 px) scale(2.5);
 }
 
 .parallax__layer__4 {
-  -webkit-transform: translateZ(-100px) scale(2);
-          transform: translateZ(-100px) scale(2);
+  transform: translateZ(-100 px) scale(2);
 }
 
 .parallax__layer__5 {
-  -webkit-transform: translateZ(-50px) scale(1.5);
-          transform: translateZ(-50px) scale(1.5);
+  transform: translateZ(-50 px) scale(1.5);
 }
 
 .parallax__layer__6 {
-  -webkit-transform: translateZ(0px) scale(1);
-          transform: translateZ(0px) scale(1);
-}
-/*# sourceMappingURL=idea.css.map */
+  transform: translateZ(0 px) scale(1);
+}/*# sourceMappingURL=idea.css.map */
