@@ -1,0 +1,168 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "h1font";
+  src: url(fonts/font1.ttf);
+}
+
+@font-face {
+  font-family: "buttons";
+  src: url(fonts/nav.ttf);
+}
+
+html, body {
+  background-color: #FEDCC8;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-family: "h1font";
+  font-size: 5em;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 7.5em;
+  font-family: "buttons";
+  text-align: center;
+  font-weight: 300;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 9;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header ul li a {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  border-radius: 50px;
+  color: #2D112B;
+  border-radius: 92px;
+  background: #fedcc8;
+  -webkit-box-shadow: 20px 20px 54px #d5b9a8, -20px -20px 54px #ffffe8;
+          box-shadow: 20px 20px 54px #d5b9a8, -20px -20px 54px #ffffe8;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  border-radius: 50px;
+  border-radius: 95px;
+  background-color: yellow;
+}
+
+.parallax {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -1500px;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.parallax__cover {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #10102c), to(#2D112B));
+  background: linear-gradient(to top, #10102c 40%, #2D112B 100%);
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 2000px;
+  z-index: 2;
+}
+
+.parallax__layer__0 {
+  -webkit-transform: translateZ(-300px) scale(4);
+          transform: translateZ(-300px) scale(4);
+}
+
+.parallax__layer__1 {
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
+}
+
+.parallax__layer__2 {
+  -webkit-transform: translateZ(-200px) scale(3);
+          transform: translateZ(-200px) scale(3);
+}
+
+.parallax__layer__3 {
+  -webkit-transform: translateZ(-150px) scale(2.5);
+          transform: translateZ(-150px) scale(2.5);
+}
+
+.parallax__layer__4 {
+  -webkit-transform: translateZ(-100px) scale(2);
+          transform: translateZ(-100px) scale(2);
+}
+
+.parallax__layer__5 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax__layer__6 {
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
+}
+/*# sourceMappingURL=idea.css.map */
