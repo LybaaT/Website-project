@@ -29,6 +29,11 @@ html, body {
   left: 50px;
   position: absolute;
 }
+.text {
+  width: 100vw;
+  position: absolute;
+  right: 0;
+}
 .heading {
   font-size: 60px;
   color:white;
