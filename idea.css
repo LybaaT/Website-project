@@ -5,7 +5,10 @@
       -ms-user-select: none;
           user-select: none;
 }
-
+@font-face {
+  font-family: "basic";
+  src: url(fonts/basic.ttf);
+}
 @font-face {
   font-family: "h1font";
   src: url(fonts/font1.ttf);
@@ -17,24 +20,27 @@
 html, body {
   background-color: #FEDCC8;
 }
-h1 {
+.name {
   font-family: "h1font";
-  font-size: 5em;
+  font-size: 70px;
   letter-spacing: 2px;
   font-weight: 400;
-  top: 10px;
+  top: 5px;
+  left: 50px;
+  position: absolute;
 }
-h2 {
-  font-size: 40px;
-  font-family: "buttons";
+.heading {
+  font-size: 60px;
+  color:black;
+  font-family: "basic";
+  letter-spacing: 1.7px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 600;
   position: relative;
   white-space: nowrap;
   z-index: 2;
   pointer-events: none;
-  display: flex;
-  margin-top: calc(50vh - 12px)
+  margin-top: calc(30vh - 12px)
 }
 .parallax {
   perspective: 100px;
