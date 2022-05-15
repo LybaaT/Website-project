@@ -41,7 +41,7 @@ h2 {
   align-items: center;
   position: absolute;
   white-space: nowrap;
-  z-index: 9;
+  z-index: 2;
   pointer-events: none;
 }
 
@@ -94,7 +94,6 @@ header ul li a:active {
   right: 0;
   bottom: 0;
   margin-left: -1500px;
-  pointer-events: none;
 }
 
 .parallax__layer {
