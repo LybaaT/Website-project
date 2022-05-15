@@ -17,19 +17,6 @@
 html, body {
   background-color: #FEDCC8;
 }
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 2;
-}
-
 h1 {
   font-family: "h1font";
   font-size: 5em;
@@ -37,7 +24,6 @@ h1 {
   font-weight: 400;
   margin-top: 10px;
 }
-
 h2 {
   font-size: 20px;
   font-family: "buttons";
@@ -49,45 +35,6 @@ h2 {
   z-index: 2;
   pointer-events: none;
 }
-
-header ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-header ul li a {
-  list-style: none;
-  margin-left: 20px;
-}
-
-header ul li a {
-  text-decoration: none;
-  padding: 6px 15px;
-  border-radius: 50px;
-  color: #2D112B;
-  border-radius: 92px;
-  border-radius: 62px;
-  background: #fedcc8;
-  box-shadow: 15px 15px 30px #ddbfae, -15px -15px 30px #fff9e2;
-  cursor: pointer;
-}
-
-header ul li a:hover {
-  border-radius: 50px;
-  border-radius: 95px;
-  border-radius: 62px;
-  background: linear-gradient(145deg, #e5c6b4, #ffebd6);
-  box-shadow: 15px 15px 30px #ddbfae, -15px -15px 30px #fff9e2;
-}
-
-header ul li a:active {
-  border-radius: 62px;
-  background: #fedcc8;
-  box-shadow: inset 15px 15px 30px #ddbfae, inset -15px -15px 30px #fff9e2;
-}
-
 .parallax {
   perspective: 100px;
   height: 100vh;
@@ -100,7 +47,6 @@ header ul li a:active {
   bottom: 0;
   margin-left: -1500px;
 }
-
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -113,7 +59,6 @@ header ul li a:active {
   position: absolute;
   bottom: 0;
 }
-
 .parallax__cover {
   background: linear-gradient(to top, rgb(16, 16, 44) 40%, #2D112B 100%);
   display: block;
@@ -124,31 +69,24 @@ header ul li a:active {
   height: 2000px;
   z-index: 2;
 }
-
 .parallax__layer__0 {
-  transform: translateZ(-300 px) scale(4);
+  transform: translateZ(-300px) scale(4);
 }
-
 .parallax__layer__1 {
-  transform: translateZ(-250 px) scale(3.5);
+  transform: translateZ(-250px) scale(3.5);
 }
-
 .parallax__layer__2 {
-  transform: translateZ(-200 px) scale(3);
+  transform: translateZ(-200px) scale(3);
 }
-
 .parallax__layer__3 {
-  transform: translateZ(-150 px) scale(2.5);
+  transform: translateZ(-150px) scale(2.5);
 }
-
 .parallax__layer__4 {
-  transform: translateZ(-100 px) scale(2);
+  transform: translateZ(-100px) scale(2);
 }
-
 .parallax__layer__5 {
-  transform: translateZ(-50 px) scale(1.5);
+  transform: translateZ(-50px) scale(1.5);
 }
-
 .parallax__layer__6 {
-  transform: translateZ(0 px) scale(1);
-}/*# sourceMappingURL=idea.css.map */
+  transform: translateZ(0px) scale(1);
+}
