@@ -60,7 +60,7 @@ h2 {
   bottom: 0;
 }
 .parallax__cover {
-  background: linear-gradient(to top, rgb(16, 16, 44) 40%, #2D112B 100%);
+  background: linear-gradient(to top, rgb(10, 10, 27) 80%, #2D112B 100%);
   display: block;
   position: absolute;
   top: 100%;
