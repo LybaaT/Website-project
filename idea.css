@@ -63,15 +63,24 @@ header ul li a {
   border-radius: 50px;
   color: #2D112B;
   border-radius: 92px;
+  border-radius: 62px;
   background: #fedcc8;
-  box-shadow: 20px 20px 54px #d5b9a8, -20px -20px 54px #ffffe8;
+  box-shadow: 15px 15px 30px #ddbfae, -15px -15px 30px #fff9e2;
   cursor: pointer;
 }
 
-header ul li:hover {
+header ul li a:hover {
   border-radius: 50px;
   border-radius: 95px;
-  background-color: yellow;
+  border-radius: 62px;
+  background: linear-gradient(145deg, #e5c6b4, #ffebd6);
+  box-shadow: 15px 15px 30px #ddbfae, -15px -15px 30px #fff9e2;
+}
+
+header ul li a:active {
+  border-radius: 62px;
+  background: #fedcc8;
+  box-shadow: inset 15px 15px 30px #ddbfae, inset -15px -15px 30px #fff9e2;
 }
 
 .parallax {
