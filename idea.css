@@ -1,5 +1,9 @@
 * {
   box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 @font-face {
@@ -23,6 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 
 h1 {
