@@ -36,8 +36,7 @@ html, body {
 }
 .heading {
   font-size: 60px;
-  color:white;
-  -webkit-text-stroke: 1px black;
+  color:#2D112B;
   font-family: "basic";
   letter-spacing: 1.7px;
   text-align: center;
