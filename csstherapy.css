@@ -107,7 +107,7 @@ header ul li a:active, #submit:active {
     height: 300px;
     border-radius: 50%;
     background-color: orange;
-    animation: breathing 10s ease-in-out infinite alternate;
+    animation: breathing 8s ease-in-out infinite alternate;
   }
   @keyframes breathing {
     from {
