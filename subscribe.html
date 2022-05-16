@@ -114,6 +114,30 @@
             color: white;
             font-size: 15;
         }
+        .parallax {
+        perspective: 100px;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+        margin-left: -1500px;
+        }
+        .parallax__layer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        }
+        .parallax__layer img {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        }
         </style>
     </head>
     <body>
@@ -143,6 +167,11 @@
 	         </form>
             </div>
         </div>
+        </div>
+        <div class="parallax">
+            <div class="parallax__layer parallax__layer__6">
+                <img src="layer_6.png" />
+            </div>
         </div>
     </body>
 </html>
