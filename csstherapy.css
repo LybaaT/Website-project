@@ -130,8 +130,10 @@ header ul li a:active, #submit:active {
     width: 50px;
 }
 input[type=text] {
-font-family: "basic";
-background:none;
-font-size: 30px;
-height: 40px;
+    font-family: "basic";
+    background:none;
+    font-size: 30px;
+    height: 40px;
+    border: none;
+    border-bottom: black 1px solid;
 }
