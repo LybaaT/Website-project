@@ -94,10 +94,13 @@ header ul li a:active, #submit:active {
     padding:30px;
     background-color: yellow;
     overflow: hidden;
+    display: inline-block;
     z-index: 10;
 }
 #breathingcircle {
+    display: inline-block;
     width: 50px;
+    z-index: 10;
     height: 50px;
     border-radius: 50%;
     color: greenyellow;
