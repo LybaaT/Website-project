@@ -110,6 +110,6 @@ header ul li a:active, #submit:active {
 input[type=text] {
 font-family: "basic";
 background:none;
-height: 20px;
-width: calc(100% / 2 - 20px);
+font-size: 30px;
+height: 40px;
 }
