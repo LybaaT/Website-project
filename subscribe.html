@@ -15,55 +15,22 @@
             font-family: "basic";
             src: url("fonts/basic.ttf");
         }
+        @font-face {
+        font-family: "h1font";
+        src: url(fonts/font1.ttf);
+        }
         body {
             background-color: #FEDCC8;
         }
         h1 {
-            font-size: 60px;
-            font-family: "basic";
-            text-align: center;
-        }
-        .form-box {
-            width:380px;
-            height:480px;
-            position:relative;
-            margin:2% auto;
-            padding:10px;
-            overflow: hidden;
-            margin-top: 80px;
-            border-radius: 51px;
-            background-color: green;
-        }
-        .input-field {
-            width: 100%;
-            padding:10px 0;
-            margin:5px 0;
-            border-left:0;
-            border-top:0;
-            border-right:0;
-            border-bottom: 1px solid #999;
-            outline:none;
-            background: transparent;
-        }
-        .submit-btn {
-            width: 85%;
-            padding: 10px 30px;
-            cursor: pointer;
-            display: block;
-            margin: auto;
-            background: #F3C693;
-            border: 0;
-            outline: none;
-            border-radius: 30px;
-        }
-        .check-box {
-            margin: 30px 10px 34px 0;
-        }
-        span {
-            color:#777;
-            font-size:12px;
-            bottom:68px;
-            position:absolute;
+            font-family: "h1font";
+            font-size: 70px;
+            margin: 40px;
+            letter-spacing: 1.5px;
+            font-weight: 500;
+            top: 5px;
+            left: 50px;
+            position: relative;
         }
         .parallax {
         perspective: 100px;
@@ -84,7 +51,8 @@
         </style>
     </head>
     <body>
-        <h1>Subscribe to our newsletter!</h1>
+        <h1>therapists are here for you</h1>
+        <h1 style="font-family:basic; font-size: 30px;">Fill in details about yourself and receive an email as we match you to a qualified therapist</h1>
         <div class="box">
         <div id='login-form'class='login-page'>
             <div class="form-box">
