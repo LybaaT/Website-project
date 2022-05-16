@@ -3,10 +3,6 @@ body {
 }
 * {
   box-sizing: border-box;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 @font-face {
   font-family: "basic";
@@ -37,7 +33,6 @@ html, body {
   position: absolute;
   right: 0;
   z-index: 10;
-  pointer-events: none;
 }
 .heading {
   font-size: 60px;
@@ -56,8 +51,8 @@ html, body {
   width: 700px;
   height:600px;
   position:relative;
-  margin-top: 50px;
-  margin-left: 200px;
+  margin-top: 20px;
+  margin-left: 250px;
   padding:10px;
   overflow: hidden;
   z-index: 10;
@@ -66,7 +61,54 @@ html, body {
   letter-spacing: 1.7px;
   font-size: 40px;
   font-weight: 700;
+  display: inline-block;
 }
+#nav {
+  width: 600px;
+  height:600px;
+  position:relative;
+  margin-right: 150px;
+  margin-left: 100px;
+  padding:10px;
+  overflow: hidden;
+  z-index: 10;
+  color: white;
+  font-family: "basic";
+  letter-spacing: 1.7px;
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+}
+#nav ul li {
+  list-style: none;
+  text-align: center;
+  margin: 70px;
+}
+#nav ul li a{
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  font-family: "basic";
+  font-size: 17px;
+  border: none;
+  border-radius: 28px;
+  background: #FEDCC8;
+  box-shadow:  26px 26px 38px #eacab8,
+              -26px -26px 38px #ffeed8;
+}
+#nav ul li a:hover {
+  border-radius: 28px;
+  background: linear-gradient(145deg, #e5c6b4, #ffebd6);
+  box-shadow:  26px 26px 38px #eacab8,
+              -26px -26px 38px #ffeed8;
+}
+#nav ul li a:active {
+  border-radius: 28px;
+  background: #FEDCC8;
+  box-shadow: inset 26px 26px 38px #eacab8,
+              inset -26px -26px 38px #ffeed8;
+}
+
 .parallax {
   perspective: 100px;
   height: 100vh;
