@@ -158,12 +158,12 @@ input[type=text] {
     border-bottom: black 1px solid;
 }
 
+
 #head {
     vertical-align: top;
-    width:1000px;
+    width:900px;
     height:600px;
     position:relative;
-    background-color: yellow;
     margin:150px;
     margin-left: 60px;
     padding:50px;
@@ -175,3 +175,49 @@ input[type=text] {
     font-family: "basic";
     color: #2d112b;
 }
+#nav {
+    width: 650px;
+    height:600px;
+    position:relative;
+    margin-right: 100px;
+    margin-left: 0px;
+    margin-top: 150px;
+    padding:10px;
+    overflow: hidden;
+    z-index: 10;
+    vertical-align: top;
+    color: white;
+    font-family: "basic";
+    letter-spacing: 1.7px;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+  }
+  #nav ul li {
+    list-style: none;
+    text-align: center;
+    margin: 90px;
+  }
+  #nav ul li a{
+    text-decoration: none;
+    padding: 17px;
+    color: black;
+    font-family: "basic";
+    border: none;
+    border-radius: 41px;
+    background: #FEDCC8;
+    box-shadow:  26px 26px 38px #eacab8,
+                -26px -26px 38px #ffeed8;
+  }
+  #nav ul li a:hover {
+    border-radius: 41px;
+    background: linear-gradient(145deg, #e5c6b4, #ffebd6);
+    box-shadow:  26px 26px 38px #eacab8,
+                -26px -26px 38px #ffeed8;
+  }
+  #nav ul li a:active {
+    border-radius: 41px;
+    background: #FEDCC8;
+    box-shadow: inset 26px 26px 38px #eacab8,
+                inset -26px -26px 38px #ffeed8;
+  }
