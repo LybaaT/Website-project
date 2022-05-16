@@ -52,6 +52,21 @@ html, body {
   pointer-events: none;
   margin-top: calc(30vh - 12px)
 }
+#info {
+  width: 700px;
+  height:600px;
+  position:relative;
+  margin-top: 50px;
+  margin-left: 200px;
+  padding:10px;
+  overflow: hidden;
+  z-index: 10;
+  color: white;
+  font-family: "basic";
+  letter-spacing: 1.7px;
+  font-size: 40px;
+  font-weight: 700;
+}
 .parallax {
   perspective: 100px;
   height: 100vh;
@@ -83,7 +98,7 @@ html, body {
   top: 100%;
   left: 0;
   right: 0;
-  height: 1500px;
+  height: 1200px;
   z-index: 9;
 }
 .parallax__layer__0 {
