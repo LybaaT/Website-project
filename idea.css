@@ -1,3 +1,6 @@
+body {
+  overflow-y: hidden;
+}
 * {
   box-sizing: border-box;
   -webkit-user-select: none;
@@ -33,7 +36,8 @@ html, body {
   width: 100vw;
   position: absolute;
   right: 0;
-  z-index: 9;
+  z-index: 10;
+  pointer-events: none;
 }
 .heading {
   font-size: 60px;
@@ -52,7 +56,7 @@ html, body {
   perspective: 100px;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
   position: absolute;
   top: 0;
   left: 50%;
