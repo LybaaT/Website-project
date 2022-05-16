@@ -86,7 +86,7 @@ header ul li a:active, #submit:active {
     bottom: 0;
 }
 #note {
-    width:1100px;
+    width:1000px;
     height:600px;
     position:relative;
     margin:150px;
@@ -99,11 +99,14 @@ header ul li a:active, #submit:active {
 }
 #breathingcircle {
     display: inline-block;
-    width: 50px;
+    margin: 120px;
+    width: 300px;
+    margin-left: 60px;
     z-index: 10;
-    height: 50px;
+    align-items: center;
+    height: 300px;
     border-radius: 50%;
-    color: greenyellow;
+    background-color: greenyellow;
     animation: breathing 10s ease-in-out infinite alternate;
   }
   @keyframes breathing {
