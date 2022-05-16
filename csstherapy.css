@@ -86,10 +86,11 @@ header ul li a:active, #submit:active {
     bottom: 0;
 }
 #note {
+    vertical-align: top;
     width:1000px;
     height:600px;
     position:relative;
-    margin:150px;
+    margin:-450px;
     margin-left: 60px;
     padding:30px;
     overflow: hidden;
@@ -97,18 +98,35 @@ header ul li a:active, #submit:active {
     z-index: 10;
     text-align: left;
 }
-#breathingcircle {
-    display: inline-block;
-    margin: 30px;
-    width: 300px;
-    margin-left: 60px;
+#quote {
+    position: relative;
+    width:600px;
+    height:400px;
+    margin-left: 1150px;
+    margin-top: 190px;
+    padding:30px;
+    overflow: hidden;
     z-index: 10;
+    text-align: left;
+    display: inline-block;
+    font-size: 45px;
+    font-family: "basic";
+    line-height: 60px;
+    color: #2d112b;
+}
+#breathingcircle {
+    position: fixed;
+    display: inline-block;
+    margin-top: 0;
+    width: 300px;
+    margin-left: 380px;
+    z-index: 0;
     align-items: center;
     height: 300px;
     border-radius: 50%;
     background-color: orange;
     animation: breathing 8s ease-in-out infinite alternate;
-  }
+}
   @keyframes breathing {
     from {
       transform: scale(0.2);
@@ -116,7 +134,7 @@ header ul li a:active, #submit:active {
     to {
       transform: scale(1.0);
     }
-  }
+}
 #note p {
     font-size: 30px;
     font-family: "basic";
@@ -132,8 +150,10 @@ header ul li a:active, #submit:active {
 input[type=text] {
     font-family: "basic";
     background:none;
-    font-size: 30px;
+    font-size: 25px;
     height: 40px;
     border: none;
+    margin:1px;
+    width: 300px;
     border-bottom: black 1px solid;
 }
