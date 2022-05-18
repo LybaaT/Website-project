@@ -39,7 +39,7 @@ header h1 {
 header #links {
     vertical-align: top;
     display: inline-block;
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     text-align: right;
 }
 header a, #submit {
@@ -94,7 +94,7 @@ header a:active, #submit:active {
 }
 #quote {
     width: 40vw;
-    font-size: 30px;
+    font-size: 25px;
     position: fixed;
     top: 50vh;
     left: 60vw;
@@ -112,15 +112,15 @@ header a:active, #submit:active {
     border-radius: 50%;
     background-color: orange;
     animation: breathing 8s ease-in-out infinite alternate;
-    top: 20vh;
+    top: 10vh;
     left: 60vw;
 }
 @keyframes breathing {
     from {
-      transform: scale(0.2);
+      transform: scale(0.1);
     }
     to {
-      transform: scale(1.0);
+      transform: scale(0.8);
     }
 }
 #note p {
@@ -146,15 +146,11 @@ input[type=text] {
     border-bottom: black 1px solid;
     user-select: text;
 }
-#breathingcircle {
-
-}
-
 #head {
     vertical-align: top;
     width:50vw;
-    height:600px;
-    padding-left:50px;
+    height:50vh;
+    padding-left: 12vw;
     overflow: hidden;
     display: inline-block;
     z-index: 10;
@@ -165,7 +161,7 @@ input[type=text] {
 }
 #nav {
     width: 40vw;
-    height:600px;
+    height:50vh;
     position:relative;
     margin-left: 0px;
     z-index: 10;
@@ -181,13 +177,13 @@ input[type=text] {
 #nav ul li {
     list-style: none;
     text-align: center;
-    margin: 7vh auto;
+    margin: 8vh auto;
     white-space: nowrap;
     font-size: 20px;
 }
 #nav ul li a{
     text-decoration: none;
-    padding: 17px;
+    padding: 10px;
     color: black;
     font-family: "basic";
     border: none;

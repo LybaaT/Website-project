@@ -52,7 +52,7 @@ html, body {
   height:550px;
   position:relative;
   margin-top: 20px;
-  margin-left: 5vw;
+  margin-left: 10vw;
   padding:10px;
   z-index: 10;
   color: white;
@@ -80,7 +80,7 @@ html, body {
 #nav ul li {
   list-style: none;
   text-align: center;
-  margin: 90px auto;
+  margin: 65px auto;
   white-space: nowrap;
 }
 #nav ul li a{
