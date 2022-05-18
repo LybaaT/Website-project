@@ -21,10 +21,10 @@ html, body {
 }
 .name {
   font-family: "h1font";
-  font-size: 70px;
+  font-size: 5vw;
   letter-spacing: 2px;
   font-weight: 400;
-  top: 5px;
+  top: 0.5vh;
   left: 50px;
   position: absolute;
 }
@@ -35,7 +35,7 @@ html, body {
   z-index: 10;
 }
 .heading {
-  font-size: 60px;
+  font-size: 6vw;
   color:#2D112B;
   font-family: "basic";
   letter-spacing: 1.7px;
@@ -45,7 +45,7 @@ html, body {
   white-space: nowrap;
   z-index: 2;
   pointer-events: none;
-  margin-top: calc(30vh - 12px)
+  margin-top: calc(13vh - 12px)
 }
 #info {
   width: 700px;
